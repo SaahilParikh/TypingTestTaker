@@ -20,9 +20,8 @@ def createParameters(CPM, rawCPM, wrong, words, ip, keys, chars, cheater, iphone
             }, separators=(',', ':'))}
 
 
-def post(CPM):
+def post(CPM, rawCPM, wrong, words, ip, keys, char):
     ua = UserAgent()
     ua.update()
     header = {'Origin': 'https://typing-speed-test.aoeu.eu', 'User-Agent':str(ua.random)}
-    print(header)
-    return requests.post(STATS_URL, createParameters(CPM, 330, 30, 75, "50.203.23.392", 2030, 310, 0, 0, 0, 60), headers=header)
+    return requests.post(STATS_URL, createParameters(CPM, rawCPM, wrong, words, ip, keys, char, 0, 0, 0, 60), headers=header)
