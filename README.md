@@ -6,4 +6,4 @@ python3 -i testTaker.py
 singleTime(WHATEVER_CPM_YOU_WANT)
 or 
 python3 -i testTaker.py
-multipleTimes(WHATEVER_CPM_YOU_WANT, NUMBER_OF_TIMES
+multipleTimes(WHATEVER_CPM_YOU_WANT, NUMBER_OF_TIMES)
