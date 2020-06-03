@@ -13,3 +13,8 @@ def multipleTimes(CPM, numTimes):
         adjCPM = CPM + random.randint(-40, 40)
         singleTime(adjCPM)
 
+def main():
+    singleTime(100000)
+
+if __name__ == "__main__":
+    main()
